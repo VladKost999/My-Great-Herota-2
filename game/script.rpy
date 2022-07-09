@@ -92,7 +92,7 @@ label GoOutside:
     menu:
         "Что же теперь делать? ППО в беде!"
         "В АТАКУУУ!!!!":
-            jump attack
+            jump attack_brick
         "БЕЖАТБ!!!!!":
             jump run
     hide sman
@@ -102,20 +102,22 @@ label GoOutside:
 label GoSleep:
     scene sleeeeeeeep with dissolve
     "Наш главный герой ушел спать, забыл о нужде в еде и умер."
-    scene theend with dissolve
-    "Конец"
-    return
+    jump bad_end
 
 label run:
     scene brick_death with fade
     "ППО был быстр, но Кирпич оказался быстрее"
-    scene theend with dissolve
-    "Конец"
+    jump bad_end
 
-label attack:
+label attack_brick:
     hide brick with dissolve
     show sman kill brick at center
     "Быстро подумав ППО ломает Кирпича и продолжает свою путь дорогу!"
     scene theend with dissolve
     "Конец"
     return
+
+label bad_end:
+    scene theend with dissolve
+    "Конец"
+    return   
