@@ -1,0 +1,1 @@
+{"package": "com.bladec.program", "name": "My Great Herota 2", "icon_name": "HER OT A", "version": "2.0", "numeric_version": 1, "orientation": "sensorLandscape", "permissions": ["VIBRATE", "INTERNET"], "include_pil": false, "include_sqlite": false, "layout": null, "source": false, "expansion": false, "store": "none", "update_icons": true, "update_always": true, "heap_size": "3"}
