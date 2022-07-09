@@ -30,7 +30,7 @@ define gui.idle_color = '#000000'
 
 ## Small_color используется в маленьком тексте, который должен быть ярче/темнее,
 ## для того, чтобы выделяться.
-define gui.idle_small_color = '#ffffff'
+define gui.idle_small_color = '#000000'
 
 ## Цвет, используемых в кнопках и панелях, когда они наведены.
 define gui.hover_color = '#000000'
@@ -49,7 +49,7 @@ define gui.muted_color = '#003d51'
 define gui.hover_muted_color = '#005b7a'
 
 ## Цвета, используемые в тексте диалогов и выборов.
-define gui.text_color = '#ffffff'
+define gui.text_color = '#000000'
 # Цвет текста меню
 define gui.interface_text_color = '#000000'
 
